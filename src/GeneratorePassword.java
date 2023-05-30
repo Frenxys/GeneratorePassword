@@ -4,7 +4,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class GeneratorePassword {
-
+    
+    // Tradisco CINZIA, ma non puo' saperlo perché sara' confusa da tutto il codice presente
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Inserisci la lunghezza della password: ");
@@ -39,7 +41,7 @@ public class GeneratorePassword {
         }
         return passwords;
     }
-
+    
     // Salva le password generate in un file
     public static void salvaPasswords(String[] passwords) {
         try {
